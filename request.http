@@ -1,0 +1,13 @@
+###
+GET http://localhost:3222/api/votaciones HTTP/1.1
+
+###
+POST http://localhost:3222/api/votaciones HTTP/1.1
+ Content-Type: application/json
+
+ {
+     "nit": 1005,
+     "nombre": "Pedro Picapiedra",
+     "lugar": "Bosconia",
+     "voto": 3
+ }
